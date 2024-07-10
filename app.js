@@ -60,3 +60,20 @@ function whatQuadrant(x, y) {
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
+
+function triangleType(side1, side2, side3) {
+    if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
+        return console.log(`(${side1}, ${side2}, ${side3}) Invalid triangle. The sum of 2 sides should always be greater than the 3rd`);
+    } else if (side1 === side2 && side2 === side3) {
+        return console.log(`(${side1}, ${side2}, ${side3}) Equilateral triangle. All sides are equal.`);
+    } else if (side1 === side2 || side1 === side3 || side2 === side3) {
+        return console.log(`(${side1}, ${side2}, ${side3}) Isosceles! Only two side lengths are equal.`);
+    } else{
+        return console.log(`(${side1}, ${side2}, ${side3}) Scalene triangle. All sides are different lengths`);
+    }
+}
+// triangleType(1,1,2);
+// triangleType(2,2,2);
+// triangleType(4,4,2);
+// triangleType(2,3,4);
+
