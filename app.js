@@ -16,3 +16,16 @@ function printOdds(count) {
 
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
+function checkAge(userName = "User", age = 0) {
+    const aboveSixteen = `Congrats ${userName}, you can drive!"`;
+    const belowSixteen = `Sorry ${userName}, but you need to wait until you're 16.`;
+
+    if (age >= 16) {
+        console.log(aboveSixteen);
+    } else {
+        console.log(belowSixteen);
+    }
+}//checkAge("Jesus", 40)
+
+// Exercise 3 Section
+console.log("EXERCISE 3:\n==========\n");
