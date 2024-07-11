@@ -27,7 +27,9 @@ function checkAge(userName = "User", age = 0) {
     } else {
         console.log(belowSixteen);
     }
-}//checkAge("Jesus", 40)
+}
+//checkAge("jesus", 40)
+//checkAge()
 
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
