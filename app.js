@@ -13,7 +13,7 @@ function printOdds(count) {
             console.log(i);
         }
     }
-}//printOdds(10);
+}printOdds(10);
 
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
@@ -28,8 +28,8 @@ function checkAge(userName = "User", age = 0) {
         console.log(belowSixteen);
     }
 }
-//checkAge("jesus", 40)
-//checkAge()
+checkAge("jesus", 40)
+checkAge()
 
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
@@ -52,13 +52,13 @@ function whatQuadrant(x, y) {
     }
     
 }
-// whatQuadrant(0, 0);
-// whatQuadrant(0, 5);
-// whatQuadrant(5, 0);
-// whatQuadrant(5, 5);
-// whatQuadrant(-5, 5);
-// whatQuadrant(-5, -5);
-// whatQuadrant(5, -5);
+whatQuadrant(0, 0);
+whatQuadrant(0, 5);
+whatQuadrant(5, 0);
+whatQuadrant(5, 5);
+whatQuadrant(-5, 5);
+whatQuadrant(-5, -5);
+whatQuadrant(5, -5);
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
@@ -74,8 +74,8 @@ function triangleType(side1, side2, side3) {
         return console.log(`(${side1}, ${side2}, ${side3}) Scalene triangle. All sides are different lengths`);
     }
 }
-// triangleType(1,1,2);
-// triangleType(2,2,2);
-// triangleType(4,4,2);
-// triangleType(2,3,4);
+triangleType(1,1,2);
+triangleType(2,2,2);
+triangleType(4,4,2);
+triangleType(2,3,4);
 
